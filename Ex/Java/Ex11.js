@@ -9,10 +9,10 @@ function modifParagraphe()
 */
 
 
-function modifParagraphe()
+function centrage_h1()
 {
     var Titre = document.getElementById("h1");
 
-    Titre.onclick = Titre.setAttribute("style_align", "center");
+    Titre.onclick = Titre.setAttribute("texte-align", "center");
     
 }
